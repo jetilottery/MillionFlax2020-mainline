@@ -1,0 +1,29 @@
+{
+  "urls": [
+    "ch2.webm",
+    "ch2.mp3",
+    "ch2.ogg"
+  ],
+  "sprite": {
+    "BetUp": [
+      0,
+      1473.0839002267574
+    ],
+    "Bonus Reveal-win": [
+      3000,
+      2841.24716553288
+    ],
+    "BonusNoWin": [
+      7000,
+      2000
+    ],
+    "BonusWin": [
+      10000,
+      3754.7619047619046
+    ],
+    "MatchingSymbolSelect_2": [
+      15000,
+      2000
+    ]
+  }
+}

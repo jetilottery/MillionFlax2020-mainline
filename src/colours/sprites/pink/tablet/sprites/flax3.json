@@ -1,0 +1,85 @@
+{"frames": {
+
+"popUp_ScratchOffParticles/particles08":
+{
+	"frame": {"x":1187,"y":1,"w":522,"h":524},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":48,"y":50,"w":522,"h":524},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles11":
+{
+	"frame": {"x":1182,"y":600,"w":547,"h":559},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":33,"w":547,"h":559},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles12":
+{
+	"frame": {"x":1160,"y":1177,"w":565,"h":565},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":29,"w":565,"h":565},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles13":
+{
+	"frame": {"x":603,"y":600,"w":575,"h":577},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":25,"w":575,"h":577},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles14":
+{
+	"frame": {"x":584,"y":1219,"w":574,"h":584},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":18,"w":574,"h":584},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles15":
+{
+	"frame": {"x":1,"y":1219,"w":581,"h":592},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":16,"w":581,"h":592},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles16":
+{
+	"frame": {"x":603,"y":1,"w":582,"h":597},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":11,"w":582,"h":597},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles17":
+{
+	"frame": {"x":1,"y":615,"w":597,"h":602},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":10,"w":597,"h":602},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles24":
+{
+	"frame": {"x":1,"y":1,"w":600,"h":612},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":8,"w":600,"h":612},
+	"sourceSize": {"w":620,"h":626}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "flax3.png",
+	"format": "RGBA8888",
+	"size": {"w":1730,"h":1812},
+	"scale": "1",
+	"related_multi_packs": [ "flax0.json", "flax1.json", "flax2.json", "flax4.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:1796def6805264e7f8247449b4aec3e6:59fab07dd9d4390e76eb6b29e772882a:e15ed6d94985171ec3965c5daccb02d5$"
+}
+}

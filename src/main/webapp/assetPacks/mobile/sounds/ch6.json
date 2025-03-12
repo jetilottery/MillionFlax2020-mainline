@@ -1,0 +1,21 @@
+{
+  "urls": [
+    "ch6.webm",
+    "ch6.mp3",
+    "ch6.ogg"
+  ],
+  "sprite": {
+    "InstantWin": [
+      0,
+      2900
+    ],
+    "MatchingSymbolSelect_3": [
+      4000,
+      1799.9999999999998
+    ],
+    "RevealAllButton": [
+      7000,
+      2800.000000000001
+    ]
+  }
+}

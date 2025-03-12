@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Splash</title>
+	<style type="text/css">
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			margin: 0 auto;
+			padding: 0;
+			background: #d5de64;
+		}
+
+		body {
+			background-repeat: no-repeat;
+			background-position: 50%;
+			opacity: 0;
+			transition: opacity 0.2s linear;
+		}
+		.loaded {
+			opacity: 1;
+		}
+
+		.container {
+			height: 100%;
+			width: 100%;
+			position: fixed;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.loader {
+			position: relative;
+			margin: 102px 0 10px;
+		}
+
+		.flaxLogoContainer {
+			position: absolute;
+			left: 7px;
+			top: 10%;
+			display: block;
+			transform-origin: top left;
+		}
+
+		.flaxLogo {
+			width: 199px;
+			height: 55px;
+		}
+
+		.spinner {
+			position: absolute;
+			height: 122px;
+			width: 100%;
+			bottom: 10px;
+			overflow: hidden;
+			visibility: hidden;
+		}
+
+		.loaded .spinner {
+			visibility: visible;
+		}
+
+		.progress {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			line-height: 122px;
+			text-align: center;
+			font-weight: bold;
+			font-family: oswald, sans-serif;
+			font-size: 24px;
+			color: #ffffff;
+			/* text-shadow: 0 1px 0 #222222; */
+		}
+
+		@media screen and (orientation: portrait) {
+			.loader {
+				margin: 320px 0 10px;
+			}
+			.loaderImage {
+				height: auto;
+				width: 640px;
+			}
+			.spinner {
+				bottom: 10%;
+			}
+		}
+
+		.copyright {
+			min-height: 1.2em;
+			color: #444444;
+			font-family: sans-serif;
+			margin: 20px;
+		}
+
+		.ring {
+			position: absolute;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		.inner {
+			-webkit-transform-origin: 50%;
+			transform-origin: 50%;
+			-webkit-animation-name: rotate;
+			animation-name: rotate;
+			-webkit-animation-duration: 0.66s;
+			animation-duration: 0.66s;
+			-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+			-webkit-animation-timing-function: linear;
+			animation-timing-function: linear;
+		}
+
+		.inner-stroke, .inner-fill {
+			-webkit-transform-origin: 50%;
+			transform-origin: 50%;
+			-webkit-animation-name: yoyo;
+			animation-name: yoyo;
+			-webkit-animation-duration: .9s;
+			animation-duration: .9s;
+			-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+			-webkit-animation-direction: alternate;
+			animation-direction: alternate;
+			-webkit-animation-timing-function: ease-in-out;
+			animation-timing-function: ease-in-out;
+		}
+
+		@-webkit-keyframes rotate {
+			from {
+				-webkit-transform: rotate(0);
+				transform: rotate(0);
+			}
+			to {
+				-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+		}
+
+		@keyframes rotate {
+			from {
+				-webkit-transform: rotate(0);
+				transform: rotate(0);
+			}
+			to {
+				-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+		}
+		@-webkit-keyframes yoyo {
+			from {
+				stroke-dasharray: 20 282;
+				-webkit-transform: rotate(0);
+				transform: rotate(0);
+			}
+			to {
+				stroke-dasharray: 188 282;
+				-webkit-transform: rotate(-120deg);
+				transform: rotate(-120deg);
+			}
+		}
+		@keyframes yoyo {
+			from {
+				stroke-dasharray: 20 282;
+				-webkit-transform: rotate(0);
+				transform: rotate(0);
+			}
+			to {
+				stroke-dasharray: 188 282;
+				-webkit-transform: rotate(-120deg);
+				transform: rotate(-120deg);
+			}
+		}
+
+	</style>
+</head>
+
+<body>
+<div class="flaxLogoContainer"></div>
+<div class="container">
+	<div class="loader"></div>
+
+	<div class="spinner">
+		<svg class="ring" viewBox="0 0 122 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<circle class="st0" cx="61" cy="61" r="45" fill="none" stroke="rgba(0,0,0,0.1)" stroke-width="14"/>
+			<circle class="st1" cx="61" cy="61" r="45" fill="none" stroke="rgba(0,0,0,0.2)" stroke-width="10"/>
+		</svg>
+
+		<svg class="ring inner" viewBox="0 0 122 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<circle class="inner-fill" cx="61" cy="61" r="45" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-dasharray="100,500"/>
+		</svg>
+		<span class="progress"></span>
+	</div>
+
+	<small class="copyright"></small>
+</div>
+</body>
+</html>

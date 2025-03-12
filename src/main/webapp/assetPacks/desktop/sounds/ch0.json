@@ -1,0 +1,13 @@
+{
+  "urls": [
+    "ch0.webm",
+    "ch0.mp3",
+    "ch0.ogg"
+  ],
+  "sprite": {
+    "MusicLoop": [
+      0,
+      30000
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{"frames": {
+
+"game1Panel1":
+{
+	"frame": {"x":1578,"y":1,"w":620,"h":464},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":620,"h":464},
+	"sourceSize": {"w":620,"h":464}
+},
+"game2Panel":
+{
+	"frame": {"x":1,"y":1,"w":1024,"h":1024},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":1024},
+	"sourceSize": {"w":1024,"h":1024}
+},
+"largeLogoArrows":
+{
+	"frame": {"x":1027,"y":550,"w":480,"h":475},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":475},
+	"sourceSize": {"w":480,"h":475}
+},
+"largeLogoBase":
+{
+	"frame": {"x":1040,"y":1492,"w":462,"h":462},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":462,"h":462},
+	"sourceSize": {"w":468,"h":468}
+},
+"largeLogoText":
+{
+	"frame": {"x":509,"y":1663,"w":529,"h":243},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":529,"h":243},
+	"sourceSize": {"w":529,"h":243}
+},
+"popUp_ScratchOffParticles/particles04":
+{
+	"frame": {"x":1037,"y":1027,"w":466,"h":463},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":81,"w":466,"h":463},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles06":
+{
+	"frame": {"x":1505,"y":1164,"w":487,"h":494},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":64,"y":66,"w":487,"h":494},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles09":
+{
+	"frame": {"x":1509,"y":623,"w":533,"h":539},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":44,"w":533,"h":539},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles10":
+{
+	"frame": {"x":1027,"y":1,"w":549,"h":547},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":38,"w":549,"h":547},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles21":
+{
+	"frame": {"x":1,"y":1027,"w":609,"h":620},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":4,"w":609,"h":620},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUpWinPanel":
+{
+	"frame": {"x":612,"y":1027,"w":634,"h":423},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":634,"h":423},
+	"sourceSize": {"w":636,"h":424}
+},
+"purchaseGamePortrait":
+{
+	"frame": {"x":1,"y":1649,"w":369,"h":506},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":369,"h":506},
+	"sourceSize": {"w":369,"h":506}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "flax1.png",
+	"format": "RGBA8888",
+	"size": {"w":2043,"h":2019},
+	"scale": "1",
+	"related_multi_packs": [ "flax0.json", "flax2.json", "flax3.json", "flax4.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:b53144e08f0988ff289411d738bb5860:c3cc583b50d5db3b131334509b58ad38:e15ed6d94985171ec3965c5daccb02d5$"
+}
+}

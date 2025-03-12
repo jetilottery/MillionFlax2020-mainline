@@ -1,0 +1,77 @@
+{"frames": {
+
+"largeLogoArrows":
+{
+	"frame": {"x":506,"y":507,"w":480,"h":475},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":475},
+	"sourceSize": {"w":480,"h":475}
+},
+"largeLogoBase":
+{
+	"frame": {"x":1468,"y":497,"w":462,"h":462},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":462,"h":462},
+	"sourceSize": {"w":468,"h":468}
+},
+"popUp_ScratchOffParticles/particles04":
+{
+	"frame": {"x":1,"y":513,"w":466,"h":463},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":81,"w":466,"h":463},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles05":
+{
+	"frame": {"x":988,"y":507,"w":475,"h":478},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":69,"y":72,"w":475,"h":478},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles06":
+{
+	"frame": {"x":1015,"y":1,"w":487,"h":494},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":64,"y":66,"w":487,"h":494},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles07":
+{
+	"frame": {"x":1,"y":1,"w":503,"h":510},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":57,"w":503,"h":510},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUpLosePanel":
+{
+	"frame": {"x":1504,"y":1,"w":418,"h":423},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":418,"h":423},
+	"sourceSize": {"w":420,"h":424}
+},
+"popUpWinArrows":
+{
+	"frame": {"x":506,"y":1,"w":507,"h":504},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":507,"h":504},
+	"sourceSize": {"w":507,"h":504}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "flax4.png",
+	"format": "RGBA8888",
+	"size": {"w":1931,"h":983},
+	"scale": "1",
+	"related_multi_packs": [ "flax0.json", "flax1.json", "flax2.json", "flax3.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:0a875767d1b133b4e6b830129ab14faf:f5beab1996ab3b5be9d205ef062e4ccc:e15ed6d94985171ec3965c5daccb02d5$"
+}
+}

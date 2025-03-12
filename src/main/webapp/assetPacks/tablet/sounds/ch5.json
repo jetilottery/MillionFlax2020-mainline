@@ -1,0 +1,25 @@
+{
+  "urls": [
+    "ch5.webm",
+    "ch5.mp3",
+    "ch5.ogg"
+  ],
+  "sprite": {
+    "InstantWin": [
+      0,
+      2900
+    ],
+    "PrizeBox_3": [
+      4000,
+      2363.0839002267567
+    ],
+    "WinningNumberSelect2": [
+      8000,
+      2250
+    ],
+    "YourNumberSelect3": [
+      12000,
+      100.13605442176932
+    ]
+  }
+}

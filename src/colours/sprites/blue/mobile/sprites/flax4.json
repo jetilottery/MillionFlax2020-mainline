@@ -1,0 +1,53 @@
+{"frames": {
+
+"popUp_ScratchOffParticles/particles02":
+{
+	"frame": {"x":435,"y":513,"w":415,"h":428},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":103,"y":96,"w":415,"h":428},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles03":
+{
+	"frame": {"x":1,"y":513,"w":432,"h":442},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":93,"y":93,"w":432,"h":442},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles05":
+{
+	"frame": {"x":852,"y":507,"w":475,"h":478},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":69,"y":72,"w":475,"h":478},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUp_ScratchOffParticles/particles07":
+{
+	"frame": {"x":1,"y":1,"w":503,"h":510},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":57,"w":503,"h":510},
+	"sourceSize": {"w":620,"h":626}
+},
+"popUpWinArrows":
+{
+	"frame": {"x":506,"y":1,"w":507,"h":504},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":507,"h":504},
+	"sourceSize": {"w":507,"h":504}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "flax4.png",
+	"format": "RGBA8888",
+	"size": {"w":1331,"h":983},
+	"scale": "1",
+	"related_multi_packs": [ "flax0.json", "flax1.json", "flax2.json", "flax3.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:9bd1888b73a3cc91768422859b386aa1:79b2b5bbddec9e1c1ad088a1f2332279:e15ed6d94985171ec3965c5daccb02d5$"
+}
+}
